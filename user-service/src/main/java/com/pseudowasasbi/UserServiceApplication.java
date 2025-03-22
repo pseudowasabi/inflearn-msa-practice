@@ -11,6 +11,7 @@ public class UserServiceApplication {
     }
 
     /*
-    - way to run program in command prompt: mvn spring-boot:run -Dspring-boot.run.jvmArguments='-Dserver.port=9003'
+    - way to run program in command prompt: [mvn spring-boot:run -Dspring-boot.run.jvmArguments='-Dserver.port=9003']
+    - if server.port=0 (random port), just run with: [mvn spring-boot:run]
      */
 }
