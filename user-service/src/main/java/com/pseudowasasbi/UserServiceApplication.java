@@ -9,4 +9,8 @@ public class UserServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(UserServiceApplication.class, args);
     }
+
+    /*
+    - way to run program in command prompt: mvn spring-boot:run -Dspring-boot.run.jvmArguments='-Dserver.port=9003'
+     */
 }
