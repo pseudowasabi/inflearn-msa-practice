@@ -5,11 +5,12 @@ import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class FilterConfig {
 
-    @Bean
-    public RouteLocator customGatewayRoutes(RouteLocatorBuilder routeLocatorBuilder) {
+//    @Bean
+    public
+    RouteLocator customGatewayRoutes(RouteLocatorBuilder routeLocatorBuilder) {
         return routeLocatorBuilder.routes()
                 .route(r -> r.path("/first-service/**")
                         .filters(f -> f.addRequestHeader("first-req-header", "first-req-header-value")
